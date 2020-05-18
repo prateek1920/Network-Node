@@ -1,0 +1,23 @@
+<ngx-smart-modal [(identifier)]='myInput'>
+    <h1>{{name}}</h1>
+    <img class='image' [src]= "nodesInfo['image']" alt="...">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+          <th scope="col">IfIndex</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let item of nodesInfo['ports']; index as i">
+          <td>{{ item.ifindex }}</td>
+          <td>{{ item.name }}</td>
+          <td>{{ item.description }}</td>
+          <td>{{ item.status }}</td>
+        </tr>
+        </tbody>
+      </table>
+    <button class="btn btn-primary" (click)="closeModal()">Close</button>
+</ngx-smart-modal>

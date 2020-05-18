@@ -1,0 +1,6 @@
+@import '../../../node_modules/ngx-smart-modal/ngx-smart-modal.css';
+
+.image {
+    width: 451px;
+    height: 56px;
+}
