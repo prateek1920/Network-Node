@@ -1,8 +1,23 @@
 <ngx-smart-modal [(identifier)]='myInput'>
     <h1>{{name}}</h1>
-    <img class='image' [src]= "nodesInfo['image']" alt="...">
-    <table class="table table-striped">
-        <thead>
+    <svg width = "490" height = "80" style = "border:1px solid black">
+      <rect *ngFor="let interfaces of nodesInfo['ports'];index as i" 
+      [attr.x] = "interfaces['coords']['x']"  
+      [attr.y] = "interfaces['coords']['y']" 
+      width = "20" height = "20" [id]='i'
+      [ngClass] = " { 
+                      'red': interfaces.status == 'offline',
+                      'green': interfaces.status == 'online',
+                      'orange': interfaces.status == 'testing' 
+                    }"
+      (mouseenter) = "highlightRow($event)" 
+      (mouseleave) = "unHighlightRow($event)">
+      </rect>  
+    </svg> 
+    <!-- <img class='image' id="interfaceimage" [src]= "nodesInfo['image']" alt="..."> -->
+    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+      <table class="table table-striped table-hover">
+        <thead>           
         <tr>
           <th scope="col">IfIndex</th>
           <th scope="col">Name</th>
@@ -11,7 +26,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr *ngFor="let item of nodesInfo['ports']; index as i">
+        <tr *ngFor="let item of nodesInfo['ports']; index as i" [id]="'id' + i"     (mouseenter) = 'highlightInterface(i)' (mouseleave) = 'unHighlightInterface()' >
           <td>{{ item.ifindex }}</td>
           <td>{{ item.name }}</td>
           <td>{{ item.description }}</td>
@@ -19,5 +34,7 @@
         </tr>
         </tbody>
       </table>
+    </div>
+    <br>
     <button class="btn btn-primary" (click)="closeModal()">Close</button>
 </ngx-smart-modal>

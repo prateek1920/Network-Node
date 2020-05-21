@@ -10,13 +10,15 @@ import { ModalComponent } from './modal/modal.component';
 import { NgxSmartModalModule, NgxSmartModalService } from 'ngx-smart-modal';
 import { NgxModalComponent } from './ngx-modal/ngx-modal.component';
 import { InterfaceService } from 'src/interfaces.service';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BoxModalComponent,
     ModalComponent,
-    NgxModalComponent
+    NgxModalComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
