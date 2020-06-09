@@ -1,0 +1,643 @@
+[
+    {
+            "name" : "node_1",
+            "image" : "../assets/images/node_1.png",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_1",
+                    "description" : "first interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 10,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "second interface",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 40,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "3",
+                    "name" : "interface_3",
+                    "description" : "third interface",
+                    "status": "testing",
+                    "coords" : {
+                        "x" : 70,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "4",
+                    "name" : "interface_4",
+                    "description" : "fourth interface",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 100,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "5",
+                    "name" : "interface_5",
+                    "description" : "fifth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 130,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "6",
+                    "name" : "interface_6",
+                    "description" : "sixth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 160,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "7",
+                    "name" : "interface_7",
+                    "description" : "seventh interface",
+                    "status": "testing",
+                    "coords" : {
+                        "x" : 190,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "8",
+                    "name" : "interface_8",
+                    "description" : "eigth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 220,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "9",
+                    "name" : "interface_9",
+                    "description" : "ninth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 250,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "10",
+                    "name" : "interface_10",
+                    "description" : "tenth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 280,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "11",
+                    "name" : "interface_11",
+                    "description" : "eleventh interface",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 310,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "12",
+                    "name" : "interface_12",
+                    "description" : "twelth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 340,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "13",
+                    "name" : "interface_13",
+                    "description" : "thirteenth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 370,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "14",
+                    "name" : "interface_14",
+                    "description" : "fourteenth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 400,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "15",
+                    "name" : "interface_15",
+                    "description" : "fifteenth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 430,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "16",
+                    "name" : "interface_16",
+                    "description" : "sixteenth interface",
+                    "status": "testing",
+                    "coords" : {
+                        "x" : 460,
+                        "y" : 10,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "17",
+                    "name" : "interface_17",
+                    "description" : "seventeenth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 10,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "18",
+                    "name" : "interface_18",
+                    "description" : "eightteenth interface",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 40,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "19",
+                    "name" : "interface_19",
+                    "description" : "nineteenth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 70,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "20",
+                    "name" : "interface_20",
+                    "description" : "twenteeth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 100,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "21",
+                    "name" : "interface_21",
+                    "description" : "twenty-first interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 130,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "22",
+                    "name" : "interface_22",
+                    "description" : "twenty-second interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 160,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "23",
+                    "name" : "interface_23",
+                    "description" : "twenty-third interface",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 190,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "24",
+                    "name" : "interface_24",
+                    "description" : "twenty-fourth interface",
+                    "status": "testing",
+                    "coords" : {
+                        "x" : 220,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "25",
+                    "name" : "interface_25",
+                    "description" : "twenty-fifth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 250,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "26",
+                    "name" : "interface_26",
+                    "description" : "twenty-sixth interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 280,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "27",
+                    "name" : "interface_27",
+                    "description" : "twenty-seventh interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 310,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "28",
+                    "name" : "interface_28",
+                    "description" : "twenty-eight interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 340,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "29",
+                    "name" : "interface_29",
+                    "description" : "twenty-ninth interface",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 370,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "30",
+                    "name" : "interface_30",
+                    "description" : "thirtieth interface",
+                    "status": "testing",
+                    "coords" : {
+                        "x" : 400,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "31",
+                    "name" : "interface_31",
+                    "description" : "thirty-first interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 430,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+                {
+                    "ifindex" : "32",
+                    "name" : "interface_32",
+                    "description" : "thiirty-second interface",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 460,
+                        "y" : 50,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        },
+    
+    {
+            "name" : "node_2",
+            "image" : "../assets/images/node_2.jpg",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_1",
+                    "description" : "first interface of node 2",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 20,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 2",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 60,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        },
+        {
+            "name" : "node_3",
+            "image" : "../assets/images/node_3.jpg",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_1",
+                    "description" : "first interface of node 3",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 20,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 3",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 60,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        },
+    {
+            "name" : "node_4",
+            "image" : "../assets/images/node_4.jpg",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_1",
+                    "description" : "first interface of node 4",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 20,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 4",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 60,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        },
+        {
+            "name" : "node_5",
+            "image" : "../assets/images/node_5.jpg",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_1",
+                    "description" : "first interface of node 5",
+                    "status": "online",
+                    "coords" : {
+                        "x" : 20,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 5",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 60,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        },
+        {
+            "name" : "node_6",
+            "image" : "../assets/images/node_6.png",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 6",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 20,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 6",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 60,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        },
+        {
+            "name" : "node_7",
+            "image" : "../assets/images/node_7.jpg",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_1",
+                    "description" : "First interface of node 7",
+                    "status": "testing",
+                    "coords" : {
+                        "x" : 20,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 7",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 60,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        },
+        {
+            "name" : "node_8",
+            "image" : "../assets/images/node_8.jpeg",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_1",
+                    "description" : "First interface of node 8",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 20,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 8",
+                    "status": "testing",
+                    "coords" : {
+                        "x" : 60,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        },
+        {
+            "name" : "node_9",
+            "image" : "../assets/images/node_8.jpeg",
+            "ports" : [
+                {
+                    "ifindex" : "1",
+                    "name" : "interface_1",
+                    "description" : "First interface of node 9",
+                    "status": "offline",
+                    "coords" : {
+                        "x" : 20,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                },
+
+                {
+                    "ifindex" : "2",
+                    "name" : "interface_2",
+                    "description" : "Second interface of node 9",
+                    "status": "testing",
+                    "coords" : {
+                        "x" : 60,
+                        "y" : 20,
+                        "w" : 20,
+                        "h" : 20
+                    }
+                }
+            ]
+        }
+]
